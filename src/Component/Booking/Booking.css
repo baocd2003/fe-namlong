@@ -1,0 +1,168 @@
+.bookingContainer{
+	box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+	padding:10px;
+}
+
+.menu-right{
+	display:flex;flex-wrap:wrap;
+	justify-content:space-between;
+}
+
+.menu-right button{
+	margin-right:10px;
+}
+
+.checkbox-container{
+	position:absolute;
+	font-size:14px;
+	background-color:white;
+	left:80%;
+	top:20%;
+	border-radius: 4px;
+	box-shadow: #3c8dbc 0px 2px 8px 0px;
+	display:none;
+	padding:10px;
+}
+/*filter- form*/
+.form-select {
+	display:flex;
+	flex-wrap: wrap;
+	transition: 0.3s;
+	justify-content: center;
+	align-items: center;
+	background-color: white;
+}
+.form-hidden{
+	display:none;
+}
+.multiSelect{
+	width:657px;
+	margin:20px;
+}
+.form-title-container{
+	margin-top:20px;
+}
+
+.select-title{
+	font-weight: 600;
+	font-size: 14px;
+	width:80px;
+}
+
+.form-radio-container{
+	margin-left:20px !important;
+}
+
+.MuiSvgIcon-root {
+	font-size: 16px; 
+}
+/*for,-header-menu*/
+.booking-menu{
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	padding:10px;
+	background-color: white;
+}
+
+.addForm{
+	display:flex;
+	flex-wrap: wrap;
+}
+
+/*table*/
+.switch-container{
+	width:60px;
+	box-shadow: #3c8dbc 0px 2px 8px 0px;
+	overflow: hidden;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.label-container-run {
+	display:flex;
+	flex-wrap:wrap;
+	margin-right:-30px;
+}
+
+.label-container-stop {
+	display:flex;
+	flex-wrap:wrap;
+	margin-left:-30px;
+}
+
+.space{
+	width:30px;
+}
+
+.run-label{
+	width:20px;
+	padding:5px;
+	color:white;
+	background-color:#3c8dbc;
+	text-align: center;
+	font-size:12px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+.stop-label{
+	width:20px;
+	padding:5px;
+	background-color: lightgray;
+	text-align: center;
+	font-size:12px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+.table-footer{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content:space-between;
+	padding:4px;
+}
+
+.table-foot-right{
+	display:flex;
+	flex-wrap: wrap;
+}
+
+.threeDotIcon {
+	color:#3c8dbc;
+	cursor:pointer;
+}
+
+.dot-container{
+	position:relative;
+}
+.dot-option {
+	position:absolute;
+	min-width: 70px !important;
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,.2);
+    border-radius: 0;
+    left: -65px;
+    top: 5px;
+	padding: 0px !important;
+	background-color: white !important;
+	display: none;
+	
+}
+
+.dot-option li {
+	list-style: none;
+	cursor: pointer;
+	text-align: center;
+	padding:4px;
+}
+
+.dot-option li:hover{
+	background-color:lightgray;
+}
+
+.open{
+	display:block;
+}

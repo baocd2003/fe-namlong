@@ -1,0 +1,29 @@
+.card {
+	position:relative;
+	overflow: hidden;
+}
+
+.card-hidden{
+	height:45px;
+}
+
+.card-content{
+	transition: 0.3s ease-in-out;
+    overflow: hidden;
+	background-color: white;
+}
+
+.content-hidden { 
+	transition: 0.3s ease-in-out;
+	visibility: hidden;
+}
+
+.box-header {
+	padding:7px;
+	display:flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content:space-between;
+	border-bottom: 1px solid lightgrey;
+	height:30px;
+}

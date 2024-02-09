@@ -1,0 +1,20 @@
+.action-btn-group{
+	padding-left:170px !important;
+}
+.action-btn{
+	margin-right: 20px !important; 
+    font-size: 12px !important;
+}
+
+.search-btn {
+	background-color: #00acd6 !important;
+	color:white !important
+}
+.search-btn:hover{
+	background-color: #00acd6 !important;
+	opacity:1;
+}
+.reset-btn{
+	background-color: #f4f4f4 !important;
+	color:black !important;
+}

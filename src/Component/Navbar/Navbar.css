@@ -1,0 +1,57 @@
+.appBar{
+	background-color: #dd4b39 !important;
+	justify-content: space-between;
+	height:50px;
+}
+
+.navContainer{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	overflow: hidden;
+	height:50px !important;
+	overflow: hidden;
+}
+
+.navLeft{
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.navRight{
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo{
+	padding-right:61%;
+	padding-top:10px;
+	padding-left: 10px;
+	padding-bottom: 8px;
+	background-color: #d73925;
+}
+
+.menuIcon{
+	font-size: 20px !important;
+	cursor: pointer;
+	padding:15px;
+	transition: 0.3s;
+}
+
+.menuIcon:hover{
+	background-color: #d73925;
+}
+
+.refreshIcon{
+	font-weight: 600!important;
+	cursor: pointer;
+	font-size: 15px !important;
+	cursor: pointer;
+	padding:15px;
+	transition: 0.3s;
+}
+.refreshIcon:hover{
+	background-color: #d73925;
+}

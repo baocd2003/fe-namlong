@@ -1,0 +1,43 @@
+.dashboard{
+
+}
+
+.dashHeader{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content:space-between;
+	align-items: center;
+}
+
+.head-left{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: baseline;
+}
+
+.head-left .title{
+	font-size:20px;
+	font-weight: 480;
+	margin-right:10px;
+}
+
+.head-right{
+	padding-right:24px;
+	display: flex;
+	align-items: baseline;
+	flex-wrap: wrap;
+	font-size:13px;
+}
+
+.head-left .sub-title{
+	opacity: 0.6;
+	font-size:13px;
+}
+.dashIcon{
+	margin-right:10px;
+}
+.dash-container {
+	padding-right:24px;
+	padding-left:24px;
+}
